@@ -1,0 +1,21 @@
+.input_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  transform: translate(-50%, -50%);
+}
+
+input {
+  border: 1px solid black;
+  margin-right: 2rem;
+}
